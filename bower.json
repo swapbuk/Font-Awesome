@@ -1,31 +1,23 @@
 {
-  "name": "Font-Awesome",
-  "version": "4.0.3",
-  "homepage": "https://github.com/swapbuk/Font-Awesome",
-  "authors": [
-    "swapnil.bukkawar@gmail.com"
+  "name": "font-awesome",
+  "description": "Font Awesome",
+  "version": "4.1.0",
+  "keywords": [],
+  "homepage": "http://fontawesome.io",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
+  "main": [
+    "./css/font-awesome.css",
+    "./fonts/*"
   ],
-  "description": "the iconic font designed for Bootstrap",
-  "keywords": [
-    "font",
-    "awesome",
-    "fontawesome",
-    "icon",
-    "font",
-    "bootstrap"
-  ],
-  "main" : "",
-  "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-    "files": {
-        "styles-notmin": [
-            "css/font-awesome.css"
-        ]
-    }
+    "*/.*",
+    "*.json",
+    "src",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ]
 }
